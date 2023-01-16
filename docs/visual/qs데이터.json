@@ -1,0 +1,902 @@
+[
+    {
+      "institution": "Massachusetts Institute of Technology (MIT)",
+      "rep score": 100,
+      "fsr score": 100,
+      "cpf score": 100,
+      "int score": 95,
+      "irn score": 96.1,
+      "ger score": 100
+    },
+    {
+      "institution": "University of Cambridge",
+      "rep score": 100,
+      "fsr score": 100,
+      "cpf score": 92.3,
+      "int score": 98.15,
+      "irn score": 99.5,
+      "ger score": 100
+    },
+    {
+      "institution": "Stanford University",
+      "rep score": 100,
+      "fsr score": 100,
+      "cpf score": 99.9,
+      "int score": 80.05,
+      "irn score": 96.3,
+      "ger score": 100
+    },
+    {
+      "institution": "University of Oxford",
+      "rep score": 100,
+      "fsr score": 100,
+      "cpf score": 90,
+      "int score": 98.6,
+      "irn score": 99.9,
+      "ger score": 100
+    },
+    {
+      "institution": "Harvard University",
+      "rep score": 100,
+      "fsr score": 99.4,
+      "cpf score": 100,
+      "int score": 71.9,
+      "irn score": 100,
+      "ger score": 100
+    },
+    {
+      "institution": "California Institute of Technology (Caltech)",
+      "rep score": 91.8,
+      "fsr score": 100,
+      "cpf score": 100,
+      "int score": 92.45,
+      "irn score": 73,
+      "ger score": 98.8
+    },
+    {
+      "institution": "Imperial College London",
+      "rep score": 99,
+      "fsr score": 99.5,
+      "cpf score": 86.5,
+      "int score": 100,
+      "irn score": 98.1,
+      "ger score": 88.8
+    },
+    {
+      "institution": "UCL",
+      "rep score": 99,
+      "fsr score": 97.6,
+      "cpf score": 77,
+      "int score": 99.6,
+      "irn score": 100,
+      "ger score": 90.3
+    },
+    {
+      "institution": "ETH Zurich - Swiss Federal Institute of Technology",
+      "rep score": 94.95,
+      "fsr score": 74.2,
+      "cpf score": 99.2,
+      "int score": 99,
+      "irn score": 96.2,
+      "ger score": 91.1
+    },
+    {
+      "institution": "University of Chicago",
+      "rep score": 95.7,
+      "fsr score": 92.9,
+      "cpf score": 86.8,
+      "int score": 78.8,
+      "irn score": 89.6,
+      "ger score": 98.2
+    },
+    {
+      "institution": "National University of Singapore (NUS)",
+      "rep score": 96.8,
+      "fsr score": 79.8,
+      "cpf score": 91.8,
+      "int score": 86.75,
+      "irn score": 89.9,
+      "ger score": 99.6
+    },
+    {
+      "institution": "Peking University",
+      "rep score": 97.9,
+      "fsr score": 87.3,
+      "cpf score": 96.7,
+      "int score": 47,
+      "irn score": 77.5,
+      "ger score": 91.4
+    },
+    {
+      "institution": "University of Pennsylvania",
+      "rep score": 94.5,
+      "fsr score": 99.9,
+      "cpf score": 70.9,
+      "int score": 81.15,
+      "irn score": 93.3,
+      "ger score": 100
+    },
+    {
+      "institution": "Tsinghua University",
+      "rep score": 98.3,
+      "fsr score": 92.8,
+      "cpf score": 98.1,
+      "int score": 21.2,
+      "irn score": 75.5,
+      "ger score": 87.1
+    },
+    {
+      "institution": "The University of Edinburgh",
+      "rep score": 97.6,
+      "fsr score": 81.1,
+      "cpf score": 70.1,
+      "int score": 99.2,
+      "irn score": 98.7,
+      "ger score": 54.3
+    },
+    {
+      "institution": "EPFL",
+      "rep score": 77.75,
+      "fsr score": 91.1,
+      "cpf score": 99.4,
+      "int score": 100,
+      "irn score": 87.3,
+      "ger score": 28
+    },
+    {
+      "institution": "Princeton University",
+      "rep score": 99.4,
+      "fsr score": 72.6,
+      "cpf score": 100,
+      "int score": 44.1,
+      "irn score": 78.5,
+      "ger score": 100
+    },
+    {
+      "institution": "Yale University",
+      "rep score": 99.95,
+      "fsr score": 100,
+      "cpf score": 51.5,
+      "int score": 83.25,
+      "irn score": 92,
+      "ger score": 100
+    },
+    {
+      "institution": "Nanyang Technological University, Singapore (NTU)",
+      "rep score": 83.25,
+      "fsr score": 83.2,
+      "cpf score": 94.1,
+      "int score": 87.05,
+      "irn score": 89.6,
+      "ger score": 84.6
+    },
+    {
+      "institution": "Cornell University",
+      "rep score": 94.85,
+      "fsr score": 62.2,
+      "cpf score": 99.3,
+      "int score": 59.6,
+      "irn score": 90,
+      "ger score": 99.5
+    },
+    {
+      "institution": "The University of Hong Kong",
+      "rep score": 80.15,
+      "fsr score": 84.2,
+      "cpf score": 72.6,
+      "int score": 99.35,
+      "irn score": 81.1,
+      "ger score": 99
+    },
+    {
+      "institution": "Columbia University",
+      "rep score": 98.9,
+      "fsr score": 100,
+      "cpf score": 47.2,
+      "int score": 71.1,
+      "irn score": 98.9,
+      "ger score": 99.8
+    },
+    {
+      "institution": "The University of Tokyo",
+      "rep score": 99.85,
+      "fsr score": 91.9,
+      "cpf score": 73.3,
+      "int score": 19.1,
+      "irn score": 89.5,
+      "ger score": 97.8
+    },
+    {
+      "institution": "Johns Hopkins University",
+      "rep score": 67.55,
+      "fsr score": 100,
+      "cpf score": 87.3,
+      "int score": 73.25,
+      "irn score": 97.7,
+      "ger score": 95.3
+    },
+    {
+      "institution": "University of Michigan-Ann Arbor",
+      "rep score": 94.9,
+      "fsr score": 88.9,
+      "cpf score": 62.5,
+      "int score": 52.15,
+      "irn score": 96.3,
+      "ger score": 96
+    },
+    {
+      "institution": "Universit? PSL",
+      "rep score": 85.7,
+      "fsr score": 99.8,
+      "cpf score": 84.1,
+      "int score": 71.65,
+      "irn score": 99.7,
+      "ger score": 53.9
+    },
+    {
+      "institution": "University of California, Berkeley (UCB)",
+      "rep score": 100,
+      "fsr score": 23.9,
+      "cpf score": 99.9,
+      "int score": 75.5,
+      "irn score": 96.7,
+      "ger score": 99.1
+    },
+    {
+      "institution": "The University of Manchester",
+      "rep score": 96.4,
+      "fsr score": 63.1,
+      "cpf score": 59,
+      "int score": 96.4,
+      "irn score": 98.9,
+      "ger score": 66.4
+    },
+    {
+      "institution": "Seoul National University",
+      "rep score": 98.2,
+      "fsr score": 87,
+      "cpf score": 70.3,
+      "int score": 11.25,
+      "irn score": 79.3,
+      "ger score": 97.7
+    },
+    {
+      "institution": "The Australian National University",
+      "rep score": 81.85,
+      "fsr score": 38,
+      "cpf score": 99.3,
+      "int score": 98,
+      "irn score": 94.6,
+      "ger score": 59.1
+    },
+    {
+      "institution": "McGill University",
+      "rep score": 93.45,
+      "fsr score": 68.9,
+      "cpf score": 59.6,
+      "int score": 91.35,
+      "irn score": 95.2,
+      "ger score": 90
+    },
+    {
+      "institution": "Northwestern University",
+      "rep score": 78.15,
+      "fsr score": 98.3,
+      "cpf score": 84.2,
+      "int score": 39.65,
+      "irn score": 89,
+      "ger score": 98.4
+    },
+    {
+      "institution": "The University of Melbourne",
+      "rep score": 96.75,
+      "fsr score": 17.9,
+      "cpf score": 95,
+      "int score": 96.45,
+      "irn score": 97.6,
+      "ger score": 91.1
+    },
+    {
+      "institution": "Fudan University",
+      "rep score": 88.55,
+      "fsr score": 89.3,
+      "cpf score": 70.4,
+      "int score": 64,
+      "irn score": 70.6,
+      "ger score": 65.7
+    },
+    {
+      "institution": "University of Toronto",
+      "rep score": 98.95,
+      "fsr score": 65.6,
+      "cpf score": 43.5,
+      "int score": 95.75,
+      "irn score": 96.7,
+      "ger score": 94
+    },
+    {
+      "institution": "Kyoto University",
+      "rep score": 98.75,
+      "fsr score": 94.8,
+      "cpf score": 54.2,
+      "int score": 18.5,
+      "irn score": 85.5,
+      "ger score": 56.9
+    },
+    {
+      "institution": "King's College London",
+      "rep score": 86,
+      "fsr score": 74.5,
+      "cpf score": 60.5,
+      "int score": 99.3,
+      "irn score": 99.3,
+      "ger score": 56.9
+    },
+    {
+      "institution": "The Chinese University of Hong Kong (CUHK)",
+      "rep score": 68.45,
+      "fsr score": 60.9,
+      "cpf score": 92.9,
+      "int score": 95.25,
+      "irn score": 74.9,
+      "ger score": 79.4
+    },
+    {
+      "institution": "New York University (NYU)",
+      "rep score": 97.45,
+      "fsr score": 98.1,
+      "cpf score": 28.9,
+      "int score": 62.85,
+      "irn score": 92,
+      "ger score": 99.7
+    },
+    {
+      "institution": "The Hong Kong University of Science and Technology",
+      "rep score": 66.05,
+      "fsr score": 62.6,
+      "cpf score": 98.6,
+      "int score": 93.95,
+      "irn score": 56.2,
+      "ger score": 91.2
+    },
+    {
+      "institution": "The University of Sydney",
+      "rep score": 93.95,
+      "fsr score": 15.6,
+      "cpf score": 92.1,
+      "int score": 99.65,
+      "irn score": 97.3,
+      "ger score": 90.8
+    },
+    {
+      "institution": "KAIST - Korea Advanced Institute of Science & Technology",
+      "rep score": 86.95,
+      "fsr score": 68.9,
+      "cpf score": 97.7,
+      "int score": 17.7,
+      "irn score": 65.2,
+      "ger score": 63.2
+    },
+    {
+      "institution": "Zhejiang University",
+      "rep score": 83.75,
+      "fsr score": 78.7,
+      "cpf score": 88.4,
+      "int score": 70.8,
+      "irn score": 80.8,
+      "ger score": 42.3
+    },
+    {
+      "institution": "University of California, Los Angeles (UCLA)",
+      "rep score": 99.95,
+      "fsr score": 37.7,
+      "cpf score": 85.9,
+      "int score": 36.3,
+      "irn score": 96.3,
+      "ger score": 98
+    },
+    {
+      "institution": "The University of New South Wales (UNSW Sydney)",
+      "rep score": 90.05,
+      "fsr score": 16.8,
+      "cpf score": 97.6,
+      "int score": 99.9,
+      "irn score": 98.2,
+      "ger score": 93
+    },
+    {
+      "institution": "Shanghai Jiao Tong University",
+      "rep score": 86.45,
+      "fsr score": 57.7,
+      "cpf score": 97.1,
+      "int score": 39.65,
+      "irn score": 73.9,
+      "ger score": 57.8
+    },
+    {
+      "institution": "University of British Columbia",
+      "rep score": 96.7,
+      "fsr score": 56.5,
+      "cpf score": 42.1,
+      "int score": 81.95,
+      "irn score": 97.9,
+      "ger score": 75.2
+    },
+    {
+      "institution": "Institut Polytechnique de Paris",
+      "rep score": 72.35,
+      "fsr score": 98.9,
+      "cpf score": 94,
+      "int score": 97.6,
+      "irn score": 94.8,
+      "ger score": 99.8
+    },
+    {
+      "institution": "Technical University of Munich",
+      "rep score": 90.4,
+      "fsr score": 96.4,
+      "cpf score": 25.8,
+      "int score": 82.65,
+      "irn score": 91.8,
+      "ger score": 37.5
+    },
+    {
+      "institution": "Duke University",
+      "rep score": 82.95,
+      "fsr score": 100,
+      "cpf score": 41.2,
+      "int score": 37.65,
+      "irn score": 95.5,
+      "ger score": 98.6
+    },
+    {
+      "institution": "The University of Queensland",
+      "rep score": 81.1,
+      "fsr score": 20.2,
+      "cpf score": 90.8,
+      "int score": 100,
+      "irn score": 94.6,
+      "ger score": 41.8
+    },
+    {
+      "institution": "Carnegie Mellon University",
+      "rep score": 70.55,
+      "fsr score": 58.6,
+      "cpf score": 100,
+      "int score": 67.65,
+      "irn score": 88.7,
+      "ger score": 85.3
+    },
+    {
+      "institution": "University of California, San Diego (UCSD)",
+      "rep score": 75.8,
+      "fsr score": 55.6,
+      "cpf score": 77,
+      "int score": 54.3,
+      "irn score": 96.9,
+      "ger score": 21.2
+    },
+    {
+      "institution": "City University of Hong Kong",
+      "rep score": 43.35,
+      "fsr score": 88.6,
+      "cpf score": 98.1,
+      "int score": 100,
+      "irn score": 55.1,
+      "ger score": 57.2
+    },
+    {
+      "institution": "Tokyo Institute of Technology (Tokyo Tech)",
+      "rep score": 83.75,
+      "fsr score": 81.5,
+      "cpf score": 65.9,
+      "int score": 37,
+      "irn score": 55.8,
+      "ger score": 33.6
+    },
+    {
+      "institution": "The London School of Economics and Political Science (LSE)",
+      "rep score": 83.65,
+      "fsr score": 37.8,
+      "cpf score": 84.6,
+      "int score": 100,
+      "irn score": 67.6,
+      "ger score": 99.9
+    },
+    {
+      "institution": "Monash University",
+      "rep score": 84.2,
+      "fsr score": 11.2,
+      "cpf score": 79.3,
+      "int score": 100,
+      "irn score": 95.1,
+      "ger score": 56.8
+    },
+    {
+      "institution": "University of Amsterdam",
+      "rep score": 62.5,
+      "fsr score": 26.7,
+      "cpf score": 97.3,
+      "int score": 86.5,
+      "irn score": 97.2,
+      "ger score": 51.4
+    },
+    {
+      "institution": "Ludwig-Maximilians-Universit?t M?nchen",
+      "rep score": 84.15,
+      "fsr score": 56,
+      "cpf score": 45.5,
+      "int score": 51.5,
+      "irn score": 94.7,
+      "ger score": 39.3
+    },
+    {
+      "institution": "Sorbonne University",
+      "rep score": 65.85,
+      "fsr score": 40.6,
+      "cpf score": 86.3,
+      "int score": 41.5,
+      "irn score": 99.6,
+      "ger score": 60.9
+    },
+    {
+      "institution": "Delft University of Technology",
+      "rep score": 75.9,
+      "fsr score": 34.5,
+      "cpf score": 84.4,
+      "int score": 91.85,
+      "irn score": 95.9,
+      "ger score": 64
+    },
+    {
+      "institution": "University of Bristol",
+      "rep score": 79.25,
+      "fsr score": 58.3,
+      "cpf score": 55.3,
+      "int score": 87.7,
+      "irn score": 93.9,
+      "ger score": 59.6
+    },
+    {
+      "institution": "Brown University",
+      "rep score": 55.9,
+      "fsr score": 80.8,
+      "cpf score": 89.9,
+      "int score": 66.3,
+      "irn score": 73.6,
+      "ger score": 99.6
+    },
+    {
+      "institution": "The University of Warwick",
+      "rep score": 80.55,
+      "fsr score": 43.1,
+      "cpf score": 63.1,
+      "int score": 98.65,
+      "irn score": 93.6,
+      "ger score": 62
+    },
+    {
+      "institution": "Ruprecht-Karls-Universit?t Heidelberg",
+      "rep score": 59.5,
+      "fsr score": 99.8,
+      "cpf score": 41.1,
+      "int score": 49.25,
+      "irn score": 95.2,
+      "ger score": 22.8
+    },
+    {
+      "institution": "The Hong Kong Polytechnic University",
+      "rep score": 51.55,
+      "fsr score": 78.4,
+      "cpf score": 68.9,
+      "int score": 90.35,
+      "irn score": 74.2,
+      "ger score": 49.2
+    },
+    {
+      "institution": "Universidad de Buenos Aires (UBA)",
+      "rep score": 93.15,
+      "fsr score": 76,
+      "cpf score": 1.8,
+      "int score": 66.3,
+      "irn score": 63,
+      "ger score": 34.3
+    },
+    {
+      "institution": "Osaka University",
+      "rep score": 82.8,
+      "fsr score": 67.4,
+      "cpf score": 59.1,
+      "int score": 19.7,
+      "irn score": 75.2,
+      "ger score": 21
+    },
+    {
+      "institution": "Universit? Paris-Saclay",
+      "rep score": 78.2,
+      "fsr score": 99.7,
+      "cpf score": 49.5,
+      "int score": 51.4,
+      "irn score": 97.1,
+      "ger score": 7.8
+    },
+    {
+      "institution": "Universiti Malaya (UM)",
+      "rep score": 87.25,
+      "fsr score": 67.8,
+      "cpf score": 39.4,
+      "int score": 48.3,
+      "irn score": 91.8,
+      "ger score": 41.9
+    },
+    {
+      "institution": "Pohang University of Science And Technology (POSTECH)",
+      "rep score": 58.4,
+      "fsr score": 100,
+      "cpf score": 98,
+      "int score": 18.8,
+      "irn score": 30.9,
+      "ger score": 54.8
+    },
+    {
+      "institution": "University of Texas at Austin",
+      "rep score": 89.45,
+      "fsr score": 9.8,
+      "cpf score": 90.9,
+      "int score": 9.2,
+      "irn score": 90.9,
+      "ger score": 71.1
+    },
+    {
+      "institution": "Yonsei University",
+      "rep score": 85.5,
+      "fsr score": 88.6,
+      "cpf score": 28.4,
+      "int score": 35.35,
+      "irn score": 63.5,
+      "ger score": 68.8
+    },
+    {
+      "institution": "Korea University",
+      "rep score": 86.6,
+      "fsr score": 86.1,
+      "cpf score": 29.5,
+      "int score": 23.8,
+      "irn score": 63.1,
+      "ger score": 71.8
+    },
+    {
+      "institution": "Lomonosov Moscow State University",
+      "rep score": 78.75,
+      "fsr score": 99.8,
+      "cpf score": 5.3,
+      "int score": 55.55,
+      "irn score": 87.5,
+      "ger score": 91.2
+    },
+    {
+      "institution": "KU Leuven",
+      "rep score": 68.4,
+      "fsr score": 7.7,
+      "cpf score": 92.7,
+      "int score": 67.6,
+      "irn score": 99.1,
+      "ger score": 44.8
+    },
+    {
+      "institution": "National Taiwan University (NTU)",
+      "rep score": 92.45,
+      "fsr score": 33.4,
+      "cpf score": 49.7,
+      "int score": 25.8,
+      "irn score": 75,
+      "ger score": 96.7
+    },
+    {
+      "institution": "University of Southampton",
+      "rep score": 53.65,
+      "fsr score": 63.3,
+      "cpf score": 82.7,
+      "int score": 94.95,
+      "irn score": 96.7,
+      "ger score": 42.8
+    },
+    {
+      "institution": "Tohoku University",
+      "rep score": 74.95,
+      "fsr score": 98.6,
+      "cpf score": 34.2,
+      "int score": 15.25,
+      "irn score": 66.8,
+      "ger score": 18.7
+    },
+    {
+      "institution": "University of Washington",
+      "rep score": 66.7,
+      "fsr score": 10.8,
+      "cpf score": 100,
+      "int score": 34.25,
+      "irn score": 97.6,
+      "ger score": 84.1
+    },
+    {
+      "institution": "University of Glasgow",
+      "rep score": 75.1,
+      "fsr score": 50.5,
+      "cpf score": 34.7,
+      "int score": 97.2,
+      "irn score": 94.7,
+      "ger score": 29.4
+    },
+    {
+      "institution": "University of Copenhagen",
+      "rep score": 54.7,
+      "fsr score": 100,
+      "cpf score": 26,
+      "int score": 57.9,
+      "irn score": 99.1,
+      "ger score": 58.2
+    },
+    {
+      "institution": "University of Wisconsin-Madison",
+      "rep score": 65.25,
+      "fsr score": 70.6,
+      "cpf score": 41.9,
+      "int score": 30.75,
+      "irn score": 93.2,
+      "ger score": 84.6
+    },
+    {
+      "institution": "University of Zurich",
+      "rep score": 48.6,
+      "fsr score": 93.3,
+      "cpf score": 49.3,
+      "int score": 77.75,
+      "irn score": 93.5,
+      "ger score": 77.8
+    },
+    {
+      "institution": "University of Illinois at Urbana-Champaign",
+      "rep score": 73.25,
+      "fsr score": 9.5,
+      "cpf score": 88.7,
+      "int score": 33.35,
+      "irn score": 92.2,
+      "ger score": 70
+    },
+    {
+      "institution": "University of Leeds",
+      "rep score": 74.3,
+      "fsr score": 41.6,
+      "cpf score": 47.8,
+      "int score": 86.4,
+      "irn score": 97.8,
+      "ger score": 42.9
+    },
+    {
+      "institution": "The University of Auckland",
+      "rep score": 64.9,
+      "fsr score": 22.4,
+      "cpf score": 54.1,
+      "int score": 96.15,
+      "irn score": 87.2,
+      "ger score": 79.2
+    },
+    {
+      "institution": "Georgia Institute of Technology",
+      "rep score": 72.35,
+      "fsr score": 11.1,
+      "cpf score": 95.5,
+      "int score": 58.85,
+      "irn score": 78.5,
+      "ger score": 63.5
+    },
+    {
+      "institution": "KTH Royal Institute of Technology",
+      "rep score": 52,
+      "fsr score": 70,
+      "cpf score": 76.4,
+      "int score": 83.65,
+      "irn score": 89.9,
+      "ger score": 81.4
+    },
+    {
+      "institution": "The University of Western Australia",
+      "rep score": 52.75,
+      "fsr score": 21.8,
+      "cpf score": 98.9,
+      "int score": 99.95,
+      "irn score": 98.2,
+      "ger score": 65
+    },
+    {
+      "institution": "University of Birmingham",
+      "rep score": 70.35,
+      "fsr score": 44.1,
+      "cpf score": 45.9,
+      "int score": 89.2,
+      "irn score": 95.1,
+      "ger score": 37.6
+    },
+    {
+      "institution": "Durham University",
+      "rep score": 73.55,
+      "fsr score": 31,
+      "cpf score": 65.7,
+      "int score": 92.2,
+      "irn score": 89.1,
+      "ger score": 43.6
+    },
+    {
+      "institution": "Pennsylvania State University",
+      "rep score": 73.25,
+      "fsr score": 32.6,
+      "cpf score": 67.7,
+      "int score": 28.15,
+      "irn score": 96.8,
+      "ger score": 44.8
+    },
+    {
+      "institution": "University of Science and Technology of China",
+      "rep score": 32,
+      "fsr score": 86.6,
+      "cpf score": 99.9,
+      "int score": 12.2,
+      "irn score": 67,
+      "ger score": 37.6
+    },
+    {
+      "institution": "Lund University",
+      "rep score": 59.85,
+      "fsr score": 51.3,
+      "cpf score": 41.4,
+      "int score": 86.2,
+      "irn score": 97.6,
+      "ger score": 64.9
+    },
+    {
+      "institution": "The University of Sheffield",
+      "rep score": 56.1,
+      "fsr score": 59.4,
+      "cpf score": 46.9,
+      "int score": 91.55,
+      "irn score": 94.7,
+      "ger score": 33.7
+    },
+    {
+      "institution": "University of St Andrews",
+      "rep score": 56.9,
+      "fsr score": 61.1,
+      "cpf score": 58.9,
+      "int score": 99.25,
+      "irn score": 83.4,
+      "ger score": 44.1
+    },
+    {
+      "institution": "Trinity College Dublin, The University of Dublin",
+      "rep score": 58.05,
+      "fsr score": 25.7,
+      "cpf score": 60.2,
+      "int score": 96.55,
+      "irn score": 87.3,
+      "ger score": 97.9
+    },
+    {
+      "institution": "Sungkyunkwan University(SKKU)",
+      "rep score": 66.45,
+      "fsr score": 83.9,
+      "cpf score": 37.8,
+      "int score": 28.8,
+      "irn score": 58.8,
+      "ger score": 33.9
+    },
+    {
+      "institution": "Rice University",
+      "rep score": 32.45,
+      "fsr score": 69.5,
+      "cpf score": 86.7,
+      "int score": 91.3,
+      "irn score": 57.2,
+      "ger score": 70.7
+    }
+  ]

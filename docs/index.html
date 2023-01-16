@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+  
+<link rel = "stylesheet" href = "visual/main.css">
+
+<head>
+   
+  <h1 style="display: inline">Interactive Ranking Analysis System</h1>
+  <h2 style="display: inline; color: silver">_QS Universities Rankings</h2>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+  rel = "stylesheet">
+  <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  
+  <hr>
+
+<div class="ctrl_house">
+
+  <div class="controll_panel1">
+  <h3>Assign weights</h3>
+  <ul>
+    <li style="display: inline; font-size: 13px; color: #000000">Reputation</li>
+    <li style="display: inline; font-size: 13px; color: #708090">Faculty Student</li>
+    <li style="display: inline; font-size: 13px; color: #696969">Citiations per Faculty</li>
+    <li style="display: inline; font-size: 13px; color: #A9A9A9">International</li>
+    <li style="display: inline; font-size: 13px; color: #D3D3D3">International Research Network</li>
+    <li style="display: inline; font-size: 13px; color: #DCDCDC">Employment Outcomes</li>
+  </ul>
+   <div class="LLL">
+    <div id="L_slider-range" style="display:inline-block;"></div>
+    <div id="L_controller">
+    <p style="margin-top: -20px;">
+      <input id="L_nValue_d" type="text" name="" value="10" >
+      <input id="L_nValue_s" type="text" name="" value="10">
+      <input id="L_nValue_n" type="text" name="" value="10">
+      <input id="L_nValue_m" type="text" name="" value="10" >
+      <input id="L_nValue_b" type="text" name="" value="10">
+      <input id="L_nValue_l" type="text" name="" value="10">
+      </p>
+      <div id="slider-3"></div>
+    </div>
+   </div>
+   </div> 
+
+  <div class="controll_panel2">
+   <h3>Assign weights</h3>
+   <ul>
+    <li style="display: inline; font-size: 13px; color: #000000">Reputation</li>
+    <li style="display: inline; font-size: 13px; color: #708090">Faculty Student</li>
+    <li style="display: inline; font-size: 13px; color: #696969 ">Citiations per Faculty</li>
+    <li style="display: inline; font-size: 13px; color: #A9A9A9">International</li>
+    <li style="display: inline; font-size: 13px; color: #D3D3D3 ">International Research Network</li>
+    <li style="display: inline; font-size: 13px; color: #DCDCDC">Employment Outcomes</li>
+  </ul>
+   <div class="RRR">
+      <div id = "R_slider-range" style = "display:inline-block;"></div>
+       <div id="R_controller">
+        <p style="margin-top: -20px;">
+        <input id="R_nValue_d" type="text" name="" value="10" >
+        <input id="R_nValue_s" type="text" name="" value="10">
+        <input id="R_nValue_n" type="text" name="" value="10"> 
+        <input id="R_nValue_m" type="text" name="" value="10" >
+        <input id="R_nValue_b" type="text" name="" value="10">
+        <input id="R_nValue_l" type="text" name="" value="10">
+        </p>
+        <div id="slider-4"></div>
+      </div>
+   </div>
+  </div>
+ </div>
+ 
+   
+  <footer>
+    <div class="body_right">
+      <div id="title_renderer"></div>
+      <div id="renderer"></div>
+      <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+     <script src = "visual/Ranking.js"></script>
+  
+  
+    </div>
+
+  </footer>
+
+
+   <script>
+
+    var doUpdate = function(event, ui) {
+        $('#slider-3 .slide-back').remove();
+    }
+
+    $(".button").click(function(){
+    $('#slider-3').slider({
+        slide: doUpdate,
+        change: doUpdate,
+        min: 0,
+        max: 60,
+        values: [10, 20, 30, 40, 50],
+        slide: function( event, ui ) {
+                  $( "#L_nValue_d" ).val( ui.values[ 0 ] );
+                  $( "#L_nValue_s" ).val( ui.values[ 1 ] - ui.values[ 0 ] );
+                  $( "#L_nValue_m" ).val( ui.values[ 2 ] - ui.values[ 1 ] );
+                  $( "#L_nValue_n" ).val( ui.values[ 3 ] - ui.values[ 2 ]);
+                  $( "#L_nValue_b" ).val( ui.values[ 4 ] - ui.values[ 3 ]);
+                  $( "#L_nValue_l" ).val( 60 - ui.values[ 4 ] );
+
+                  L_listen(ui.values[0], ui.values[1], ui.values[2], ui.values[3], ui.values[4]);
+
+               }
+    });
+    $( "#price" ).val( $( "#slider-3" ).slider( "values", 0 ));
+    doUpdate();
+       });
+
+    $('#slider-3').slider({
+        slide: doUpdate,
+        change: doUpdate,
+        min: 0,
+        max: 60,
+        values: [10, 20, 30, 40, 50],
+        slide: function( event, ui ) {
+                  $( "#L_nValue_d" ).val( ui.values[ 0 ] );
+                  $( "#L_nValue_s" ).val( ui.values[ 1 ] - ui.values[ 0 ] );
+                  $( "#L_nValue_m" ).val( ui.values[ 2 ] - ui.values[ 1 ] );
+                  $( "#L_nValue_n" ).val( ui.values[ 3 ] - ui.values[ 2 ] );
+                  $( "#L_nValue_b" ).val( ui.values[ 4 ] - ui.values[ 3 ] );
+                  $( "#L_nValue_l" ).val( 60 - ui.values[ 4 ] );
+
+                  L_listen(ui.values[0], ui.values[1], ui.values[2], ui.values[3], ui.values[4]);
+               }
+    });
+    $( "#price" ).val( $( "#slider-3" ).slider( "values", 0 ) );
+    doUpdate();
+
+
+      </script>
+
+<script>
+
+  var doUpdate = function(event, ui) {
+      $('#slider-4 .slide-back').remove();
+  
+  };
+
+  $(".button").click(function(){
+  $('#slider-4').slider({
+      slide: doUpdate,
+      change: doUpdate,
+      min: 0,
+      max: 60,
+      values: [10, 20, 30, 40, 50],
+      slide: function( event, ui ) {
+                $( "#R_nValue_d" ).val( ui.values[ 0 ] );
+                $( "#R_nValue_s" ).val( ui.values[ 1 ] - ui.values[ 0 ] );
+                $( "#R_nValue_m" ).val( ui.values[ 2 ] - ui.values[ 1 ] );
+                $( "#R_nValue_n" ).val( ui.values[ 3 ] - ui.values[ 2 ]);
+                $( "#R_nValue_b" ).val( ui.values[ 4 ] - ui.values[ 3 ]);
+                $( "#R_nValue_l" ).val( 60 - ui.values[ 4 ] );
+
+                R_listen(ui.values[0], ui.values[1], ui.values[2], ui.values[3], ui.values[4]);
+
+             }
+  });
+  $( "#price" ).val( $( "#slider-4" ).slider( "values", 0 ));
+  doUpdate();
+     });
+
+  $('#slider-4').slider({
+      slide: doUpdate,
+      change: doUpdate,
+      min: 0,
+      max: 60,
+      values: [10, 20, 30, 40, 50],
+      slide: function( event, ui ) {
+                $( "#R_nValue_d" ).val( ui.values[ 0 ] );
+                $( "#R_nValue_s" ).val( ui.values[ 1 ] - ui.values[ 0 ] );
+                $( "#R_nValue_m" ).val( ui.values[ 2 ] - ui.values[ 1 ] );
+                $( "#R_nValue_n" ).val( ui.values[ 3 ] - ui.values[ 2 ]);
+                $( "#R_nValue_b" ).val( ui.values[ 4 ] - ui.values[ 3 ]);
+                $( "#R_nValue_l" ).val( 60 - ui.values[ 4 ] );
+
+                R_listen(ui.values[0], ui.values[1], ui.values[2], ui.values[3], ui.values[4]);
+             }
+  });
+  $( "#price" ).val( $( "#slider-4" ).slider( "values", 0 ) );
+  doUpdate();
+
+
+    </script>
+ 
+</body>

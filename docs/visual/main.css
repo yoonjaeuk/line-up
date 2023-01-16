@@ -1,0 +1,149 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing : border-box;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#mc{
+  font-family:'notosanskr';
+  font-size:40px;
+  font-weight:100;
+}
+#cr{
+  font-weight:200;
+  font-size:18px;
+}
+
+
+.body_right{
+  display:inline-block;
+  float:left;
+  margin:3px;
+  margin-top:7px;
+  height:900px;
+  width:1500px;
+  border-right:1px solid #d6d6d7;
+}
+
+.ctrl_house{
+  display:inline-block;
+  width:1500px;
+  margin-bottom:0px;
+  font-weight:lighter;
+}
+.controll_panel1{
+  display:inline-block;
+  float:left;
+  width:50%;
+
+}
+.controll_panel2{
+  display:inline-block;
+  float:left;
+  width:50%;
+  padding-left:3px;
+
+}
+
+
+#title_renderer{
+  background-color:white;
+  display: inline-block;
+  border-right:1px solid #d6d6d7;
+  float:left;
+  width:1400px;
+  padding-left:10px;
+}
+
+
+.LLL{
+    margin-top:8px;
+    padding-left:10px;
+    background-color:white;
+    border-bottom:1px solid #d6d6d7;
+    border-right:1px solid #d6d6d7;
+  }
+
+.RRR{
+    margin-top:8px;
+    padding-left:10px;
+    background-color:white;
+    border-bottom:1px solid #d6d6d7;
+    border-right:1px solid #d6d6d7;
+
+  }
+
+
+#renderer{
+    background-color:white;
+    font-weight:300;
+    overflow:scroll;
+    overflow-x:hidden;
+    display: inline-block;
+    width: 1680px;
+    padding-left:10px;
+    height:800px;
+    border-right:1px solid #d6d6d7;
+  
+  }
+
+  svg{
+    width:1540px;
+    min-width:1000px;
+    height:3000px;
+    /*border:1px solid black;*/
+  }
+  #title_renderer svg{
+    
+    width:1540px;
+    min-width:1200px;
+    height:30px;
+    /*border:1px solid black;*/
+  }
+  #title_renderer{
+    height:30px;
+  }
+
+#controller{
+    margin-top:15px;
+    margin-bottom:50px;
+  }
+
+#Value_w{
+    width:400px;
+  }
+  
+#Text_w{
+    text-align: center;
+    margin-top:10px;
+    float:left;
+    width:200px;
+}  
+
+input{
+  width:100px;
+  border:0px;
+  text-align:center;
+}
+
+  
+  /*
+.slide {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    background: red;
+}
+.slide-back {
+    position:absolute;
+    height:100%;
+}
+
+*/
